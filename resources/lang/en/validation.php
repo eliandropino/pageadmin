@@ -75,10 +75,10 @@ return [
         'string'  => 'The :attribute must be :size characters.',
         'array'   => 'The :attribute must contain :size items.',
     ],
-    'string'               => 'The :attribute must be a string.',
-    'timezone'             => 'The :attribute must be a valid zone.',
-    'unique'               => 'The :attribute has already been taken.',
-    'url'                  => 'The :attribute format is invalid.',
+    'string'               => 'O :attribute deve ser um texto.',
+    'timezone'             => 'O :attribute must be a valid zone.',
+    'unique'               => 'O :attribute has already been taken.',
+    'url'                  => 'O :attribute formato é inválido.',
 
     /*
     |--------------------------------------------------------------------------

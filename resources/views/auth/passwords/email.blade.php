@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Gentellela Alela! | </title>
+    <title>BSOne | | </title>
     
     <!-- Bootstrap -->
     <link href="{{ asset("css/bootstrap.min.css") }}" rel="stylesheet">
@@ -32,26 +32,26 @@
                     </div>
                 @endif
 				{!! BootForm::open(['url' => url('/password/email'), 'method' => 'post']) !!}
-				<h1>Reset Password</h1>
+				<h1>Resetar Senha</h1>
 	
 				{!! BootForm::email('email', 'Email', old('email'), ['placeholder' => 'Email']) !!}
 					
-				{!! BootForm::submit('Send Password Reset Link', ['class' => 'btn btn-default col-md-9']) !!}
+				{!! BootForm::submit('Enviar Link', ['class' => 'btn btn-default col-md-9']) !!}
 	
 				<div class="clearfix"></div>
 					
 				<div class="separator">
-					<p class="change_link">You have a password ?
-						<a href="{{ url('/login') }}" class="to_register"> Log in </a>
+					<p class="change_link">Você tem acesso ?
+						<a href="{{ url('/login') }}" class="to_register"> Acessar </a>
 					</p>
 					
 					<div class="clearfix"></div>
 					<br />
-					
-					<div>
-						<h1><i class="fa fa-paw"></i> Gentelella Alela!</h1>
-						<p>©2016 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
-					</div>
+
+                    <div>
+                        <h1><i class="fa fa-paw"></i> BSOne</h1>
+                        <p>©2017 All Rights Reserved. BSOne Informática</p>
+                    </div>
 				</div>
 					
                 {!! BootForm::close() !!}
